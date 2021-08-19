@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    /* background-color: red; */
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    /* background-color: #ffbe76; */
+    background-color: #293542;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.card-item{
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    transition: all 0.2s;
+    /* transition: box-shadow 0.2s; */
+    /* transform: rotate(20deg); */
+}
+
